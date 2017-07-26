@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Photos
+    </title>
+    <meta content="" name="author">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/app.css"><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body class="page"><!--[if lt IE 9]>
+    <p class="browserupgrade">Внимание! Вы используете <strong>устаревший браузер.</strong> Данный сайт построен на передовых, современных технологиях и не поддерживает Ваш браузер. Использование устаревшего браузера повышает риск взлома вашего компьютера. Настоятельно рекомендуем выбрать и установить любой из современных браузеров. Это бесплатно и займет всего несколько минут. <a href="http://browsehappy.com/">Обновить браузер.</a></p><![endif]-->
+    <div class="preloader">
+      <div class="preloader__img"></div>
+    </div>
+    <aside class="sidebar">
+      <button class="sidebar__toggle hamburger" type="button" title="меню"><span class="hamburger__item"></span></button>
+      <div class="sidebar__content">
+        <div class="sidebar__user user user_nowrap user_hidden">
+          <div class="user__avatar avatar"><img class="avatar__img" src="img/jane.jpg" alt="Jane Doe"></div>
+          <h1 class="user__name">Jane Doe</h1>
+          <div class="user__info">
+            <p>Фотограф, дизайнер, иллюстратор</p>
+          </div>
+        </div>
+        <nav class="sidebar__menu main-menu main-menu_compact">
+          <ul class="main-menu__list">
+            <li class="main-menu__item"><a class="main-menu__link" href="index.html" title="Портфолио"><span class="main-menu__link-icon icon-basic-case"></span><span class="main-menu__link-text">Портфолио</span></a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="about.html" title="Обо мне"><span class="main-menu__link-icon icon-basic-postcard"></span><span class="main-menu__link-text">Обо мне</span></a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="contacts.html" title="Контакты"><span class="main-menu__link-icon icon-basic-geolocalize-05"></span><span class="main-menu__link-text">Контакты</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+    <div class="bottom-bar">
+      <div class="bottom-bar__controls">
+        <button class="bottom-bar__toggle"></button>
+      </div>
+      <div class="bottom-bar__content">
+        <div class="filter filter_text-right">
+          <button class="btn filter__btn btn_active" type="button"><span class="btn__text">Все</span></button>
+          <button class="btn filter__btn" type="button" data-filter=".people"><span class="btn__text">Люди</span></button>
+          <button class="btn filter__btn" type="button" data-filter=".nature"><span class="btn__text">Природа</span></button>
+          <button class="btn filter__btn" type="button" data-filter=".cities"><span class="btn__text">Города</span></button>
+        </div>
+      </div>
+    </div>
+    <main class="main">
+      <ul class="gallery">
+        <li class="gallery__item nature"><a class="gallery__item-link" href="img/gallery/lg/1.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/1.jpg" alt=""></a></li>
+        <li class="gallery__item nature"><a class="gallery__item-link" href="img/gallery/lg/2.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/2.jpg" alt=""></a></li>
+        <li class="gallery__item nature"><a class="gallery__item-link" href="img/gallery/lg/3.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/3.jpg" alt=""></a></li>
+        <li class="gallery__item cities"><a class="gallery__item-link" href="img/gallery/lg/4.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/4.jpg" alt=""></a></li>
+        <li class="gallery__item nature"><a class="gallery__item-link" href="img/gallery/lg/5.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/5.jpg" alt=""></a></li>
+        <li class="gallery__item cities"><a class="gallery__item-link" href="img/gallery/lg/6.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/6.jpg" alt=""></a></li>
+        <li class="gallery__item cities"><a class="gallery__item-link" href="img/gallery/lg/7.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/7.jpg" alt=""></a></li>
+        <li class="gallery__item cities"><a class="gallery__item-link" href="img/gallery/lg/8.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/8.jpg" alt=""></a></li>
+        <li class="gallery__item nature"><a class="gallery__item-link" href="img/gallery/lg/9.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/9.jpg" alt=""></a></li>
+        <li class="gallery__item people"><a class="gallery__item-link" href="img/gallery/lg/10.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/10.jpg" alt=""></a></li>
+        <li class="gallery__item people"><a class="gallery__item-link" href="img/gallery/lg/11.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/11.jpg" alt=""></a></li>
+        <li class="gallery__item people"><a class="gallery__item-link" href="img/gallery/lg/12.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/12.jpg" alt=""></a></li>
+        <li class="gallery__item people"><a class="gallery__item-link" href="img/gallery/lg/13.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/13.jpg" alt=""></a></li>
+        <li class="gallery__item people"><a class="gallery__item-link" href="img/gallery/lg/14.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/14.jpg" alt=""></a></li>
+        <li class="gallery__item cities"><a class="gallery__item-link" href="img/gallery/lg/15.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/15.jpg" alt=""></a></li>
+        <li class="gallery__item cities"><a class="gallery__item-link" href="img/gallery/lg/16.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/16.jpg" alt=""></a></li>
+        <li class="gallery__item people"><a class="gallery__item-link" href="img/gallery/lg/17.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/17.jpg" alt=""></a></li>
+        <li class="gallery__item cities"><a class="gallery__item-link" href="img/gallery/lg/18.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/18.jpg" alt=""></a></li>
+        <li class="gallery__item people"><a class="gallery__item-link" href="img/gallery/lg/19.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/19.jpg" alt=""></a></li>
+        <li class="gallery__item people"><a class="gallery__item-link" href="img/gallery/lg/20.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/20.jpg" alt=""></a></li>
+        <li class="gallery__item people"><a class="gallery__item-link" href="img/gallery/lg/21.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/21.jpg" alt=""></a></li>
+        <li class="gallery__item nature"><a class="gallery__item-link" href="img/gallery/lg/22.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/22.jpg" alt=""></a></li>
+        <li class="gallery__item cities"><a class="gallery__item-link" href="img/gallery/lg/23.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/23.jpg" alt=""></a></li>
+        <li class="gallery__item people"><a class="gallery__item-link" href="img/gallery/lg/24.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/24.jpg" alt=""></a></li>
+        <li class="gallery__item nature"><a class="gallery__item-link" href="img/gallery/lg/25.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/25.jpg" alt=""></a></li>
+        <li class="gallery__item nature"><a class="gallery__item-link" href="img/gallery/lg/26.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/26.jpg" alt=""></a></li>
+        <li class="gallery__item nature"><a class="gallery__item-link" href="img/gallery/lg/27.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/27.jpg" alt=""></a></li>
+        <li class="gallery__item people"><a class="gallery__item-link" href="img/gallery/lg/28.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/28.jpg" alt=""></a></li>
+        <li class="gallery__item people"><a class="gallery__item-link" href="img/gallery/lg/29.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/29.jpg" alt=""></a></li>
+        <li class="gallery__item people"><a class="gallery__item-link" href="img/gallery/lg/30.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/30.jpg" alt=""></a></li>
+        <li class="gallery__item nature"><a class="gallery__item-link" href="img/gallery/lg/31.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/31.jpg" alt=""></a></li>
+        <li class="gallery__item cities"><a class="gallery__item-link" href="img/gallery/lg/32.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/32.jpg" alt=""></a></li>
+        <li class="gallery__item cities"><a class="gallery__item-link" href="img/gallery/lg/33.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/33.jpg" alt=""></a></li>
+        <li class="gallery__item cities"><a class="gallery__item-link" href="img/gallery/lg/34.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/34.jpg" alt=""></a></li>
+        <li class="gallery__item people"><a class="gallery__item-link" href="img/gallery/lg/35.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/35.jpg" alt=""></a></li>
+        <li class="gallery__item people"><a class="gallery__item-link" href="img/gallery/lg/36.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/36.jpg" alt=""></a></li>
+        <li class="gallery__item nature"><a class="gallery__item-link" href="img/gallery/lg/37.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/37.jpg" alt=""></a></li>
+        <li class="gallery__item cities"><a class="gallery__item-link" href="img/gallery/lg/38.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/38.jpg" alt=""></a></li>
+        <li class="gallery__item nature"><a class="gallery__item-link" href="img/gallery/lg/39.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/39.jpg" alt=""></a></li>
+        <li class="gallery__item nature"><a class="gallery__item-link" href="img/gallery/lg/40.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/40.jpg" alt=""></a></li>
+        <li class="gallery__item cities"><a class="gallery__item-link" href="img/gallery/lg/41.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/41.jpg" alt=""></a></li>
+        <li class="gallery__item cities"><a class="gallery__item-link" href="img/gallery/lg/42.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/42.jpg" alt=""></a></li>
+        <li class="gallery__item people"><a class="gallery__item-link" href="img/gallery/lg/43.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/43.jpg" alt=""></a></li>
+        <li class="gallery__item cities"><a class="gallery__item-link" href="img/gallery/lg/44.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/44.jpg" alt=""></a></li>
+        <li class="gallery__item nature"><a class="gallery__item-link" href="img/gallery/lg/45.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/45.jpg" alt=""></a></li>
+        <li class="gallery__item nature"><a class="gallery__item-link" href="img/gallery/lg/46.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/46.jpg" alt=""></a></li>
+        <li class="gallery__item nature"><a class="gallery__item-link" href="img/gallery/lg/47.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/47.jpg" alt=""></a></li>
+        <li class="gallery__item cities"><a class="gallery__item-link" href="img/gallery/lg/48.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/48.jpg" alt=""></a></li>
+        <li class="gallery__item cities"><a class="gallery__item-link" href="img/gallery/lg/49.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/49.jpg" alt=""></a></li>
+        <li class="gallery__item nature"><a class="gallery__item-link" href="img/gallery/lg/50.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/50.jpg" alt=""></a></li>
+        <li class="gallery__item people"><a class="gallery__item-link" href="img/gallery/lg/51.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/51.jpg" alt=""></a></li>
+        <li class="gallery__item people"><a class="gallery__item-link" href="img/gallery/lg/52.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/52.jpg" alt=""></a></li>
+        <li class="gallery__item nature"><a class="gallery__item-link" href="img/gallery/lg/53.jpg"><img class="gallery__item-img" src="img/dummy.png" data-original="img/gallery/thumbs/53.jpg" alt=""></a></li>
+      </ul>
+    </main>
+    <script src="js/common.js"></script>
+    <!--Avoid `console` errors in browsers that lack a console.-->
+    <script>common.avoidConsoleErrors();</script>
+    <!-- svg4everybody adds SVG External Content support to all browsers.-->
+    <script>common.svg4everybody();</script>
+    <!-- Place any jQuery/helper plugins in here.-->
+    <script src="js/index.js"></script>
+  </body>
+</html>

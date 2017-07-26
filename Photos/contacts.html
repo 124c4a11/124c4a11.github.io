@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Photos
+    </title>
+    <meta content="" name="author">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/app.css"><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body class="page page_light"><!--[if lt IE 9]>
+    <p class="browserupgrade">Внимание! Вы используете <strong>устаревший браузер.</strong> Данный сайт построен на передовых, современных технологиях и не поддерживает Ваш браузер. Использование устаревшего браузера повышает риск взлома вашего компьютера. Настоятельно рекомендуем выбрать и установить любой из современных браузеров. Это бесплатно и займет всего несколько минут. <a href="http://browsehappy.com/">Обновить браузер.</a></p><![endif]-->
+    <div class="preloader">
+      <div class="preloader__img"></div>
+    </div>
+    <aside class="sidebar">
+      <button class="sidebar__toggle hamburger" type="button" title="меню"><span class="hamburger__item"></span></button>
+      <div class="sidebar__content">
+        <div class="sidebar__user user user_nowrap user_hidden">
+          <div class="user__avatar avatar"><img class="avatar__img" src="img/jane.jpg" alt="Jane Doe"></div>
+          <h1 class="user__name">Jane Doe</h1>
+          <div class="user__info">
+            <p>Фотограф, дизайнер, иллюстратор</p>
+          </div>
+        </div>
+        <nav class="sidebar__menu main-menu main-menu_compact">
+          <ul class="main-menu__list">
+            <li class="main-menu__item"><a class="main-menu__link" href="index.html" title="Портфолио"><span class="main-menu__link-icon icon-basic-case"></span><span class="main-menu__link-text">Портфолио</span></a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="about.html" title="Обо мне"><span class="main-menu__link-icon icon-basic-postcard"></span><span class="main-menu__link-text">Обо мне</span></a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="contacts.html" title="Контакты"><span class="main-menu__link-icon icon-basic-geolocalize-05"></span><span class="main-menu__link-text">Контакты</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+    <main class="main">
+      <div class="content">
+        <header class="content__header">
+          <h2 class="content__title">Обратная связь</h2>
+          <p class="content__subtitle">Свяжитесь со мной одним из следующих способов</p>
+        </header>
+        <div class="content__body">
+          <div class="content__col">
+            <ul class="contacts-list">
+              <li class="contacts-list__item">
+                <div class="contacts-list__item-title"><span class="contacts-list__item-icon icon-basic-webpage-img-txt"></span><span class="contacts-list__item-text">Мой сайт:</span></div>
+                <div class="contacts-list__item-description">
+                  <p><a class="contacts-list__link" href="mailto:my-site.com">my-site.com</a></p>
+                </div>
+              </li>
+              <li class="contacts-list__item">
+                <div class="contacts-list__item-title"><span class="contacts-list__item-icon icon-basic-geolocalize-05"></span><span class="contacts-list__item-text">Адрес:</span></div>
+                <div class="contacts-list__item-description">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+              </li>
+              <li class="contacts-list__item">
+                <div class="contacts-list__item-title"><span class="contacts-list__item-icon icon-basic-smartphone"></span><span class="contacts-list__item-text">Телефон:</span></div>
+                <div class="contacts-list__item-description">
+                  <p><a class="contacts-list__link" href="tel:+79999999999">+7 (999) 999-99-99</a></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="content__col">
+            <div class="feedback">
+              <div class="feedback__title">Оставить заявку</div>
+              <form class="feedback__form">
+                <div class="feedback__group">
+                  <label class="feedback__label">Ваше имя
+                    <input class="feedback__field field" type="text" name="name" required>
+                  </label>
+                </div>
+                <div class="feedback__group">
+                  <label class="feedback__label">Ваш e-mail
+                    <input class="feedback__field field" type="text" name="e-mail" required>
+                  </label>
+                </div>
+                <div class="feedback__group">
+                  <label class="feedback__label">Ваше сообщение
+                    <textarea class="feedback__message feedback__field field" name="message"></textarea>
+                  </label>
+                </div>
+                <div class="feedback__controls">
+                  <button class="btn btn_primary btn_md" type="submit">Отправить заявку</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/common.js"></script>
+    <!--Avoid `console` errors in browsers that lack a console.-->
+    <script>common.avoidConsoleErrors();</script>
+    <!-- svg4everybody adds SVG External Content support to all browsers.-->
+    <script>common.svg4everybody();</script>
+    <!-- Place any jQuery/helper plugins in here.-->
+    <script src="js/contacts.js"></script>
+  </body>
+</html>
