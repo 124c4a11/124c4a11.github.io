@@ -13,9 +13,18 @@
     <link rel="stylesheet" href="styles/app.css"><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
   </head>
-  <body class="page"><!--[if lt IE 9]>
+  <body class="page"><!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
     <div class="page-wrapper">
+
+      <div class="browserupgrade">
+        <div class="container">
+          <div class="container-inner">
+            <p><strong>Внимание!</strong> Данная страница находится на стадии тестирования!</p>
+          </div>
+        </div>
+      </div>
+
       <header class="page-header">
         <div class="container">
           <div class="container-inner">
@@ -121,12 +130,12 @@
           <div class="col-right page-footer-col-right">
             <h3 class="page-footer-title">Напишите нам:</h3>
             <div class="feedback">
-              <form class="feedback-form">
+              <form class="feedback-form" name="feedback" method="post" action="#">
                 <div class="feedback-group">
-                  <input class="field" type="email" name="e-mail" placeholder="E-mail">
+                  <input class="field" type="email" name="e-mail" placeholder="E-mail" required>
                 </div>
                 <div class="feedback-group">
-                  <textarea class="feedback-textarea field" name="message" placeholder="Введите свое сообщение"></textarea>
+                  <textarea class="feedback-textarea field" name="message" placeholder="Введите свое сообщение" required></textarea>
                 </div>
                 <div class="feedback-controls">
                   <button class="btn btn-lg" type="submit">Отправить</button>
