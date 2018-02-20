@@ -2,13 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Adidas</title>
+    <title>Adidas
+    </title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
     <!-- bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- bootstrap-select-->
-    <link rel="stylesheet" href="https://cdn.rawgit.com/infostreams/bootstrap-select/fd227d46de2afed300d97fd0962de80fa71afb3b/dist/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body class="page">
@@ -45,30 +45,30 @@
                 <p>The relaxed hiking culture of New Yourk inspired Pharrell to create his Colorblock collection, a playful blend of retro and modern outdoor design.</p>
               </article>
               <!-- product-preview-->
-              <div class="product__preview carousel slide" id="product-preview" data-ride="carousel">
-                <div class="carousel-inner product__preview-inner">
+              <div class="product__preview preview carousel slide" id="product-preview" data-ride="carousel">
+                <div class="carousel-inner preview__inner">
                   <div class="carousel-item active">
-                    <div class="product__preview-card">
-                      <div class="product__preview-img-wrapper"><img class="product__preview-img" src="img/product.png" alt="product name"></div>
-                      <div class="product__preview-description">
-                        <p class="product__preview-subtitle" title="Pharrell Williams">Pharrell Williams</p>
-                        <h2 class="product__preview-title" title="NY Colorblock Top">NY Colorblock Top</h2>
-                        <div class="product__preview-price" title="$299">$299</div>
+                    <div class="preview__card">
+                      <div class="preview__card-img-wrapper"><img class="preview__card-img" src="img/product.png" alt="product name"></div>
+                      <div class="preview__card-description">
+                        <p class="preview__card-subtitle" title="Pharrell Williams">Pharrell Williams</p>
+                        <h2 class="preview__card-title" title="NY Colorblock Top">NY Colorblock Top</h2>
+                        <div class="preview__card-price" title="$299">$299</div>
                       </div>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <div class="product__preview-card">
-                      <div class="product__preview-img-wrapper"><img class="product__preview-img" src="img/product.png" alt="product name"></div>
-                      <div class="product__preview-description">
-                        <p class="product__preview-subtitle" title="Pharrell Williams">Pharrell Williams</p>
-                        <h2 class="product__preview-title" title="NY Colorblock Top">NY Colorblock Top</h2>
-                        <div class="product__preview-price" title="$299">$299</div>
+                    <div class="preview__card">
+                      <div class="preview__card-img-wrapper"><img class="preview__card-img" src="img/product.png" alt="product name"></div>
+                      <div class="preview__card-description">
+                        <p class="preview__card-subtitle" title="Pharrell Williams">Pharrell Williams</p>
+                        <h2 class="preview__card-title" title="NY Colorblock Top">NY Colorblock Top</h2>
+                        <div class="preview__card-price" title="$299">$299</div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="product__preview-controls"><a class="product__preview-btn product__preview-btn_prev carousel-control-prev" href="#product-preview" role="button" data-slide="prev" title="previous slide"></a><a class="product__preview-btn product__preview-btn_next carousel-control-next" href="#product-preview" role="button" data-slide="next" title="next slide"></a></div>
+                <div class="preview__controls"><a class="preview__btn preview__btn_prev carousel-control-prev" href="#product-preview" role="button" data-slide="prev" title="previous slide"><span class="sr-only">Previous</span></a><a class="preview__btn preview__btn_next carousel-control-next" href="#product-preview" role="button" data-slide="next" title="next slide"><span class="sr-only">Next</span></a></div>
               </div>
             </div>
             <div class="product__model col-lg-4"><img class="product__model-img" src="img/model.png" alt="product-name"></div>
@@ -76,13 +76,13 @@
               <!-- order-form-->
               <form class="order-form" name="order">
                 <div class="order-form__select-group">
-                  <select class="order-form__select order-form__select_right selectpicker" name="count">
-                    <option value="1" data-content="&lt;span class='selectpicker__text'&gt;1&lt;/span&gt;">1</option>
-                    <option value="100" data-content="&lt;span class='selectpicker__text'&gt;100000000000000000000000000000000000000000000000&lt;/span&gt;">100</option>
+                  <select class="order-form__select order-form__select_right customselect" name="count">
+                    <option value="1">1</option>
+                    <option value="100">100</option>
                   </select>
-                  <select class="order-form__select order-form__select_left selectpicker" name="size">
-                    <option value="M" data-content="&lt;span class='selectpicker__label'&gt;M&lt;/span&gt;&lt;span class='selectpicker__text'&gt;Medium Size&lt;/span&gt;">Medium Size</option>
-                    <option value="M" data-content="&lt;span class='selectpicker__label'&gt;L&lt;/span&gt;&lt;span class='selectpicker__text'&gt;Large Size Large Size Large Size Large Size Large Size Large Size Large Size Large Size&lt;/span&gt;">Large Size</option>
+                  <select class="order-form__select order-form__select_left customselect" name="size">
+                    <option value="M" data-badge="M">Medium Size</option>
+                    <option value="L" data-badge="L">Large Size</option>
                   </select>
                 </div>
                 <div class="order-form__text-group">
@@ -109,7 +109,9 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- bootstrap select-->
-    <script src="https://cdn.rawgit.com/infostreams/bootstrap-select/fd227d46de2afed300d97fd0962de80fa71afb3b/dist/js/bootstrap-select.min.js"></script>
+    <script src="js/common.js"></script>
+    <!--Avoid `console` errors in browsers that lack a console.-->
+    <script>common.avoidConsoleErrors();</script>
+    <script src="js/app.js"></script>
   </body>
 </html>
